@@ -12,7 +12,6 @@
 <body>
     <div id="container">
         <div id="yourapp">Directory App</div>
-
         <div id="add_retrive">
             <button type="button" id="adduser">Add New Person</button>
             <button type="button" id="retrive">Retrive Information</button>
@@ -30,25 +29,25 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="text" id="username">
+                        <input type="text" id="username" required>
                     </td>
                     <td>
-                        <input type="text" id="userdob">
+                        <input type="text" id="userdob" reqquired>
                     </td>
                     <td>
-                        <input type="text" id="aadhar">
+                        <input type="text" id="aadhar" required>
                     </td>
                     <td>
-                        <input type="text" id="mobile">
+                        <input type="text" id="mobile" required>
+                    </td>
+                    <td id="age">
+
                     </td>
                     <td>
-                        <input type="text" id="age">
-                    </td>
-                    <td>
-                        <button id="saveUser" onclick="saveUsers()">Save</button>
-                        <button id="deleteUser" onclick="deleteUsers()">Delete</button>
-                        <!-- <a href="#" id="saveUser">Save</a>
-                        <a href="#" id="deleteUser">Delete</a> -->
+                        <!-- <button id="saveUser" onclick="saveUsers()">Save</button>
+                        <button id="deleteUser" onclick="deleteUsers()">Delete</button> -->
+                        <a href="#" id="saveUser" onclick="saveUsers()">Save</a>
+                        <a href="#" id="deleteUser" onclick="deleteUsers()">Delete</a>
                     </td>
                 </tr>
             </table>
